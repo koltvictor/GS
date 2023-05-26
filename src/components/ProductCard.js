@@ -10,7 +10,7 @@ export default function ProductCard({ product, onAdd, cartItems }) {
     <div>
       <h3>{product.name}</h3>
       <img src={product.image} alt={product.name} />
-      <div>{product.price}</div>
+      <div>${product.price}</div>
       <div>{product.description}</div>
       <button onClick={() => onAdd(product)}>Add to Cart ({number}) </button>
     </div>
