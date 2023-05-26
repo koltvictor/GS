@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import logo from "../assets/GSLogoimg.png";
 
 export default function Header({ cartItems }) {
-  console.log("header cartItems", cartItems);
   const cartItemsCount = cartItems
     ? cartItems.reduce((accum, item) => accum + item.quantity, 0)
     : 0;

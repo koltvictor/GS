@@ -7,7 +7,7 @@ export default function ProductCard({ product, onAdd, cartItems }) {
     }
   });
   return (
-    <div>
+    <div className="product-container">
       <h3>{product.name}</h3>
       <img src={product.image} alt={product.name} />
       <div>${product.price}</div>

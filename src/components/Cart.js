@@ -73,12 +73,12 @@ export default function Cart({ cartItems, onAdd, onRemove }) {
             );
           })}
         </div>
-        <div className="orderSubmit">Total Price: ${getTotalSum()}</div>
+        <div className="orderSubmit">Total: ${getTotalSum()}</div>
         <div className="orderSubmit">
           <Button variant="outline-primary" onClick={submitOrder} size="sm">
             Submit
           </Button>
-          <br />
+
           <br />
           <Button
             size="sm"

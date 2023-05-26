@@ -10,8 +10,6 @@ export default function Home({ cartItems }) {
     visible: { opacity: 1, transition: { duration: 2 } },
   };
 
-  console.log("these are cartItems", cartItems);
-
   return (
     <div>
       <Header cartItems={cartItems} />
